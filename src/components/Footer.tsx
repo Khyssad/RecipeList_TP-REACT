@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -10,9 +10,30 @@ const Footer: React.FC = () => {
         </div>
         <nav>
           <ul className="flex space-x-6">
-            <li><Link to="/apropos" className="hover:text-gray-300 transition-colors duration-300">À propos</Link></li>
-            <li><Link to="/contact" className="hover:text-gray-300 transition-colors duration-300">Contact</Link></li>
-            <li><Link to="/mentions-legales" className="hover:text-gray-300 transition-colors duration-300">Mentions légales</Link></li>
+            <li>
+              <Link
+                to="/apropos"
+                className="hover:text-gray-300 transition-colors duration-300"
+              >
+                À propos
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="hover:text-gray-300 transition-colors duration-300"
+              >
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/mentions-legales"
+                className="hover:text-gray-300 transition-colors duration-300"
+              >
+                Mentions légales
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
